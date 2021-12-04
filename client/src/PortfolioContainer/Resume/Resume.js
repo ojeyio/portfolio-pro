@@ -186,7 +186,7 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Writing"
-        description="Writing gives me a channel to fully express myself. I have a spcial affinity for poetry and I have hopes of being published someday."
+        description="Writing gives me a channel to fully express myself. I have a special affinity for poetry and I have hopes of being published someday."
       />
       <ResumeHeading
         heading="Ping Pong"
