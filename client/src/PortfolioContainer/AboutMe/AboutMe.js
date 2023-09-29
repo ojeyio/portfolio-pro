@@ -14,14 +14,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Recent BSEE graduate with a strong foundation in Software development and programming principles across multiple languages and platforms. Exceptional problem-solving and analytical skills and experienced in developing, testing and debugging code. Able to quickly learn and master new technologies and software in both team setting and self-directed projects",
+      "Software Enginner at Bloomberg LP",
     highlights: {
       bullets: [
+        "Modern C++",
+        "Back end operations",
+        "Core java",
         "Managing Database",
         "Interactive front-end design",
-        "React",
-        "Core Java",
-        "Back end operations",
+        "React"
       ],
       heading: "Here are a Few Highlights:",
     },

@@ -54,13 +54,12 @@ const Resume = (props) => {
   //here we have
   const programmingSkillsDetails = [
     { skill: "Core Java", ratingPercentage: 90},
+    {skill: "Moder C++", ratingPercentage:70},
     { skill: "SQL", ratingPercentage: 90},
     { skill: "Python", ratingPercentage: 88},
-    { skill: "Matlab", ratingPercentage: 85},
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "C", ratingPercentage: 75},
-    { skill: "CSS", ratingPercentage: 65 },
+    { skill: "CSS", ratingPercentage: 65 }
   ];
 
   const projectsDetails = [
@@ -94,7 +93,7 @@ const Resume = (props) => {
         heading={"University of Texas at Arlington"}
         subHeading={"Bachelor of Science in Electrical Engineering"}
         fromDate={"2017"}
-        toDate={"2021"}
+        toDate={"2020"}
       />
 
       <ResumeHeading
@@ -116,13 +115,13 @@ const Resume = (props) => {
       <div className="experience-container">
         <ResumeHeading
           heading={"Goldman Sachs & Co."}
-          subHeading={"Analyst"}
-          fromDate={"2020"}
-          toDate={"Present"}
+          subHeading={"Senior Analyst"}
+          fromDate={"July 2020"}
+          toDate={"March 2022"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          Currently working as an Analyst in the Global Markets Division at Goldman Sachs
+          Worked as an Analyst in the Global Markets Division at Goldman Sachs
           </span>
         </div>
         <div className="experience-description">
@@ -182,7 +181,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Painting"
-        description="Apart from being a tech enthusiast, I also love to paint. I mainly do acrylic painting and fun fact, I painted roughly 80% of all the paintings I currently own."
+        description="Apart from being a tech enthusiast, I also love to paint. I mainly do acrylic painting and fun fact, I painted roughly 50% of all the paintings I currently own."
       />
       <ResumeHeading
         heading="Writing"
